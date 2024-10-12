@@ -1,0 +1,23 @@
+p.verso {
+  color: blue;
+}
+
+p.mote {
+  color: red;
+}
+
+.poeta img {
+    border-radius: 50%;
+}
+
+.link {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    transition: .3s ease;
+    color: salmon;
+}
