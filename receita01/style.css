@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabela {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  border-collapse: collapse;
+  border: 1px solid #d2d2d2;
+}
+
+.tabela th {
+  background-color: coral;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabela th,
+td {
+  padding: 16px;
+  text-align: left;
+}
