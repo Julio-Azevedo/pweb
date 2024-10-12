@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tags do HTML</title>
+    <!-- Incluindo o Bootstrap CSS a partir do CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      /* Estilo para as seções */
+      ul, li {
+        list-style-type: none;
+      }
+      section {
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 5px;
+        color: white;
+      }
+      #estrutural {
+        background-color: #007bff; /* Azul */
+      }
+      #agrupamento {
+        background-color: #28a745; /* Verde */
+      }
+      #texto {
+        background-color: #ffc107; /* Amarelo */
+      }
+      #midia {
+        background-color: #dc3545; /* Vermelho */
+      }
+      #formularios {
+        background-color: #17a2b8; /* Ciano */
+      }
+      #interativo {
+        background-color: #6f42c1; /* Roxo */
+      }
+      #semantica {
+        background-color: #fd7e14; /* Laranja */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="text-center my-4">
+        <h1>Tags HTML</h1>
+        <p>Aprenda sobre as principais tags HTML e suas funções.</p>
+      </header>
+
+      <nav>
+        <ul class="nav nav-pills justify-content-center mb-4">
+          <li class="nav-item">
+            <a class="nav-link active" href="#estrutural">Estrutural</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#agrupamento">Agrupamento de Conteúdo</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#texto">Texto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#midia">Mídia</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#formularios">Formulários</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#interativo">Interativo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#semantica">Semântica</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section id="estrutural">
+        <h2>Estrutural</h2>
+        <ul>
+          <li>
+            <details>
+              <summary>&lt;html&gt;</summary>
+              <p>Define o documento HTML.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;head&gt;</summary>
+              <p>Contém metadados sobre o documento.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;title&gt;</summary>
+              <p>Define o título do documento.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;base&gt;</summary>
+              <p>Define a URL base para URLs relativas.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;link&gt;</summary>
+              <p>Usado para vincular folhas de estilo externas.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;meta&gt;</summary>
+              <p>Fornece metadados sobre o documento.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;style&gt;</summary>
+              <p>Define estilos CSS dentro do documento.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;body&gt;</summary>
+              <p>Contém o conteúdo do documento.</p>
+            </details>
+          </li>
+        </ul>
+      </section>
+
+      <section id="agrupamento">
+        <h2>Agrupamento de Conteúdo</h2>
+        <ul>
+          <li>
+            <details>
+              <summary>&lt;header&gt;</summary>
+              <p>Representa um cabeçalho para uma seção ou página.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;nav&gt;</summary>
+              <p>Define uma seção de navegação.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;section&gt;</summary>
+              <p>Representa uma seção genérica de um documento.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;article&gt;</summary>
+              <p>
+                Representa um conteúdo independente que pode ser distribuído.
+              </p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;aside&gt;</summary>
+              <p>Define um conteúdo relacionado, como uma barra lateral.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;footer&gt;</summary>
+              <p>Representa um rodapé para uma seção ou página.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;h1&gt; a &lt;h6&gt;</summary>
+              <p>Definem títulos de diferentes níveis.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;p&gt;</summary>
+              <p>Representa um parágrafo.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;hr&gt;</summary>
+              <p>Insere uma linha horizontal.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;pre&gt;</summary>
+              <p>Representa texto pré-formatado.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;blockquote&gt;</summary>
+              <p>Define uma citação de um bloco.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;ol&gt;</summary>
+              <p>Define uma lista ordenada.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;ul&gt;</summary>
+              <p>Define uma lista não ordenada.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;li&gt;</summary>
+              <p>Define um item de lista.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;dl&gt;</summary>
+              <p>Define uma lista de descrição.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;dt&gt;</summary>
+              <p>Define um termo em uma lista de descrição.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;dd&gt;</summary>
+              <p>Define a descrição de um termo.</p>
+            </details>
+          </li>
+        </ul>
+      </section>
+
+      <section id="texto">
+        <h2>Texto</h2>
+        <ul>
+          <li>
+            <details>
+              <summary>&lt;a&gt;</summary>
+              <p>Define um hyperlink.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;em&gt;</summary>
+              <p>Define texto enfatizado.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;strong&gt;</summary>
+              <p>Define texto importante.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;small&gt;</summary>
+              <p>Define texto menor.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;s&gt;</summary>
+              <p>Define texto que não é mais relevante.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;cite&gt;</summary>
+              <p>Define uma citação.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;q&gt;</summary>
+              <p>Define uma citação em linha.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;dfn&gt;</summary>
+              <p>Define um termo que está sendo definido.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;abbr&gt;</summary>
+              <p>Define uma abreviação.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;time&gt;</summary>
+              <p>Representa uma data e hora.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;code&gt;</summary>
+              <p>Define um trecho de código.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;var&gt;</summary>
+              <p>Define uma variável.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;mark&gt;</summary>
+              <p>Define texto destacado.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;ruby&gt;</summary>
+              <p>Define anotações de ruby para caracteres de texto.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;ruby&gt;</summary>
+              <p>Define um texto ruby.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;rt&gt;</summary>
+              <p>Define uma anotação ruby.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;rp&gt;</summary>
+              <p>Define parênteses para a anotação ruby.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;bdi&gt;</summary>
+              <p>
+                Isola uma parte do texto que deve ser exibida com uma direção de
+                texto diferente.
+              </p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;bdo&gt;</summary>
+              <p>Sobrepõe a direção do texto.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;span&gt;</summary>
+              <p>Define uma parte em linha de um documento.</p>
+            </details>
+          </li>
+        </ul>
+      </section>
+
+      <section id="midia">
+        <h2>Mídia</h2>
+        <ul>
+          <li>
+            <details>
+              <summary>&lt;img&gt;</summary>
+              <p>Define uma imagem.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;audio&gt;</summary>
+              <p>Define conteúdo de áudio.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;video&gt;</summary>
+              <p>Define conteúdo de vídeo.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;source&gt;</summary>
+              <p>Define múltiplas fontes para elementos de mídia.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;track&gt;</summary>
+              <p>Define faixas de texto para elementos de mídia.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;map&gt;</summary>
+              <p>Define um mapa de imagem.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;area&gt;</summary>
+              <p>Define uma área dentro de um mapa de imagem.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;picture&gt;</summary>
+              <p>Define um container para diferentes fontes de imagens.</p>
+            </details>
+          </li>
+        </ul>
+      </section>
+
+      <section id="formularios">
+        <h2>Formulários</h2>
+        <ul>
+          <li>
+            <details>
+              <summary>&lt;form&gt;</summary>
+              <p>Define um formulário HTML.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;input&gt;</summary>
+              <p>Define um campo de entrada.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;textarea&gt;</summary>
+              <p>Define uma área de texto para entrada de dados.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;button&gt;</summary>
+              <p>Define um botão.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;select&gt;</summary>
+              <p>Define uma lista suspensa.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;label&gt;</summary>
+              <p>Define um rótulo para um elemento.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;fieldset&gt;</summary>
+              <p>Agrupa elementos relacionados em um formulário.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;legend&gt;</summary>
+              <p>Define um título para um &lt;fieldset&gt;.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;datalist&gt;</summary>
+              <p>
+                Define uma lista de opções pré-definidas para um campo de
+                entrada.
+              </p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;output&gt;</summary>
+              <p>Define um resultado de um cálculo.</p>
+            </details>
+          </li>
+        </ul>
+      </section>
+
+      <section id="interativo">
+        <h2>Interativo</h2>
+        <ul>
+          <li>
+            <details>
+              <summary>&lt;details&gt;</summary>
+              <p>Define um controle que o usuário pode abrir ou fechar.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;summary&gt;</summary>
+              <p>Define um resumo visível para um elemento &lt;details&gt;.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;dialog&gt;</summary>
+              <p>Define uma caixa de diálogo ou janela modal.</p>
+            </details>
+          </li>
+        </ul>
+      </section>
+
+      <section id="semantica">
+        <h2>Semântica</h2>
+        <ul>
+          <li>
+            <details>
+              <summary>&lt;main&gt;</summary>
+              <p>Representa o conteúdo principal do documento.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;figure&gt;</summary>
+              <p>Representa conteúdo ilustrativo.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>&lt;figcaption&gt;</summary>
+              <p>Define uma legenda para um &lt;figure&gt;.</p>
+            </details>
+          </li>
+        </ul>
+      </section>
+
+      <footer class="text-center my-4">
+        <p>&copy; 2024 Aprendendo HTML. Todos os direitos reservados.</p>
+      </footer>
+    </div>
+
+    <!-- Incluindo o Bootstrap JS a partir do CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
