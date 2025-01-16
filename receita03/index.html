@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="te amo">
+        <button id="botaoCarregar">Carregar Guinness</button>
+    </div>
+    <div id="cerveja"></div>
+
+    <script>
+        function aparecerDiv() {
+            let div = document.getElementById("cerveja");
+
+            if (div.classList.contains("exibindo")) {
+                div.classList.remove("exibindo");
+                setTimeout(() => {
+                    div.innerHTML = "";
+                }, 300);
+            } else {
+                div.innerHTML = "<h1>Guinness</h1>";
+                div.classList.add("exibindo");
+            }
+        }
+
+        let botao = document.getElementById("botaoCarregar");
+        botao.addEventListener("click", aparecerDiv);
+    </script>
+</body>
+
+</html>
