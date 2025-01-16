@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="meu-amor">
+        <button id="botaoCarregar">Carregando cervejas...</button>
+    </div>
+
+    <script>
+        let cervejas = ["Guiness", "Desperados", "Becks"];
+
+        function transformar(item) {
+            return `<td class="cerveja">${item}</td>`;
+        }
+
+        function aparecerDiv() {
+            let div = document.getElementById("meu-amor");
+
+            let cervejasHtml = `
+                <table>
+                    <thead>
+                        <tr><th>Cerveja</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>${cervejas.map(transformar).join("")}</tr>
+                    </tbody>
+                </table>
+            `;
+            div.innerHTML = cervejasHtml;
+        }
+
+        let botao = document.getElementById("botaoCarregar");
+        botao.addEventListener("click", aparecerDiv);
+    </script>
+</body>
+
+</html>

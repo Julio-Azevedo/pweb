@@ -1,0 +1,22 @@
+table {
+    width: 300px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: red;
+}
+
+td {
+    background-color: blue;
+}
+
+.cerveja {
+    color: white;
+    font-size: 18px;
+}
